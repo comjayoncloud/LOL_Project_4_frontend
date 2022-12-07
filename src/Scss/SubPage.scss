@@ -1,0 +1,68 @@
+.SubPage {
+  display: flex;
+  width: 1080px;
+  height: 550px;
+  margin: auto;
+  background-color: white;
+  section {
+    flex-grow: 1;
+
+    h2 > a {
+      margin-left: 10px;
+      font-size: 20px;
+      text-decoration: none;
+      color: black;
+      font-weight: bold;
+      height: 100%;
+    }
+    .Top10gg {
+      display: flex;
+      height: 520px;
+      flex-flow: column wrap;
+
+      article {
+        width: 50%;
+        height: 20%;
+
+        a {
+          display: flex;
+          justify-content: center;
+          align-items: center;
+          border-bottom: 1px solid;
+          border-color: rgb(233, 223, 223);
+          padding: 12px 0px;
+          margin: 0px 12px;
+          color: grey;
+          text-decoration: none;
+
+          .Index {
+            height: 100%;
+            margin-left: 10px;
+            font-size: 20px;
+            font-weight: bold;
+            flex-basis: 55px;
+            color: black;
+          }
+          .Thumbnail {
+            height: 56px;
+            width: 100px;
+
+            overflow: hidden;
+            img {
+              max-width: 100%;
+            }
+          }
+          .Text {
+            flex: 1;
+
+            padding-left: 10px;
+            border-left: 1px solid;
+            border-color: grey;
+            font-size: 12px;
+            margin-left: 20px;
+          }
+        }
+      }
+    }
+  }
+}

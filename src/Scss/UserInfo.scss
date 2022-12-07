@@ -1,0 +1,61 @@
+.UserInfo {
+  display: flex;
+  height: 300px;
+  align-items: center;
+
+  .profile {
+    display: flex;
+    margin: 0 auto;
+
+    .profileIcon {
+      width: 100px;
+      height: 100px;
+      img {
+        max-width: 100%;
+        border-radius: 20px;
+      }
+    }
+    .profileInfo {
+      padding-left: 10px;
+      .profileInfo1 {
+        font-size: 30px;
+        font-weight: bold;
+      }
+      .profileInfo2 {
+        display: flex;
+        font-size: 12px;
+        color: white;
+        padding-top: 10px;
+
+        .freshButton1 {
+          display: flex;
+          align-items: center;
+          justify-content: center;
+          width: 85px;
+          height: 40px;
+          background-color: #5383e8;
+          border-radius: 20px;
+          a {
+            color: white;
+            text-decoration: none;
+          }
+        }
+
+        .freshButton2 {
+          margin-left: 5px;
+          display: flex;
+          align-items: center;
+          justify-content: center;
+          width: 187px;
+          height: 40px;
+          background-color: #7d59ea;
+          border-radius: 20px;
+          a {
+            color: white;
+            text-decoration: none;
+          }
+        }
+      }
+    }
+  }
+}

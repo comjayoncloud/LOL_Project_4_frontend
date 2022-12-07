@@ -1,0 +1,39 @@
+.SummonerItems {
+  width: 377px;
+  height: 22px;
+  margin-top: 0px;
+  ul {
+    list-style: none;
+    padding-left: 0px;
+    margin-top: 3px;
+    display: flex;
+    height: 22px;
+    .WinItem {
+      background-color: #84a4e9;
+      margin-left: 2px;
+      margin-top: 0px;
+      width: 22px;
+      height: 22px;
+      border-radius: 4px;
+    }
+    .LoseItem {
+      background-color: #ffbac3;
+      margin-left: 2px;
+      margin-top: 0px;
+      width: 22px;
+      height: 22px;
+      border-radius: 4px;
+    }
+    li {
+      div {
+        width: 22px;
+        height: 22px;
+      }
+      img {
+        margin-bottom: 10px;
+        border-radius: 4px;
+        width: 22px;
+      }
+    }
+  }
+}

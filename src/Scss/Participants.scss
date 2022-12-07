@@ -1,0 +1,35 @@
+.Participants {
+  display: flex;
+  flex: 1;
+
+  ul {
+    width: 100px;
+    height: 96px;
+    padding-left: 0px;
+    margin-top: 0px;
+    padding-top: 1px;
+    margin-left: 0px;
+    li {
+      display: flex;
+      height: 18px;
+      width: 90px;
+      align-items: center;
+      margin-top: 0px;
+
+      img {
+        width: 18px;
+        height: 18px;
+        border-radius: 0;
+        margin-top: 0;
+        padding-top: 1px;
+        margin-right: 1px;
+      }
+      .ChampId {
+        font-size: 12px;
+        white-space: nowrap;
+        overflow: hidden;
+        text-overflow: ellipsis;
+      }
+    }
+  }
+}

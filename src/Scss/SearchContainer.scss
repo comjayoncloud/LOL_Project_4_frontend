@@ -1,0 +1,70 @@
+.SearchContainer {
+  display: flex;
+  justify-content: space-between;
+  margin: 15px auto;
+  width: 800px;
+  background-color: white;
+  border-radius: 30px;
+  .SearchForm {
+    display: flex;
+    height: 60px;
+    width: 800px;
+    text-align: left;
+    align-items: center;
+    label {
+      display: block;
+      font-size: 13px;
+      font-weight: bold;
+      margin-bottom: 4px;
+    }
+
+    .SearchFormRegion {
+      padding-left: 25px;
+      width: 234px;
+      height: 44px;
+      .dropdown {
+        width: 209px;
+        height: 22px;
+        button {
+          width: 209px;
+          height: 22px;
+          padding-top: 0;
+          background-color: white;
+          border-color: white;
+          color: grey;
+          text-align: left;
+          padding-left: 0;
+          font-size: 13px;
+        }
+        .dropdown-menu {
+          width: 209px;
+          font-size: 13px;
+          border-bottom: 1px;
+          .dropdown-item {
+            color: grey;
+          }
+        }
+      }
+    }
+
+    .SearchFormId {
+      height: 44px;
+      width: 483px;
+      input {
+        font-size: 12px;
+        border: 0;
+        width: 483px;
+        color: grey;
+      }
+    }
+    .SearchButton {
+      height: 44px;
+      img {
+        border-radius: 30px;
+        margin-left: 0;
+        height: 40px;
+        cursor: pointer;
+      }
+    }
+  }
+}

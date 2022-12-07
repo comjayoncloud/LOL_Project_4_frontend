@@ -1,0 +1,73 @@
+.Header {
+  min-width: 1080px;
+  .TopBannerAd {
+    background-color: rgb(26, 27, 36);
+    height: 90px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    button {
+      background: transparent;
+      border: none;
+    }
+  }
+  .GameList {
+    background-color: #28344e;
+    display: flex;
+    height: 40px;
+    h1 {
+      margin-top: 0;
+      height: 40px;
+      width: 98px;
+      background-color: #5383e8;
+    }
+    nav ul {
+      list-style: none;
+      margin-top: 0;
+      display: flex;
+      padding-left: 0px;
+      li:nth-of-type(1) {
+        background-color: #5383e8;
+        padding: 0 12px 0 0;
+        margin-left: 0px;
+      }
+      li {
+        list-style: none;
+        padding-left: 15px;
+        height: 40px;
+      }
+    }
+
+    a,
+    span {
+      color: white;
+      width: 100%;
+      height: 100%;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      text-decoration: none;
+    }
+  }
+  .sideMenu {
+    display: flex;
+    height: 40px;
+    background-color: #5383e8;
+    ul {
+      margin-top: 0px;
+      margin-left: 50px;
+
+      display: flex;
+      list-style: none;
+      height: 40px;
+      li {
+        margin: auto;
+        margin-left: 15px;
+        a {
+          text-decoration: none;
+          color: #b3cdff;
+        }
+      }
+    }
+  }
+}

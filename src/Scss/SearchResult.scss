@@ -1,0 +1,17 @@
+.SearchResult {
+  .LoadingPage {
+    position: fixed;
+    top: 0px;
+    height: 100%;
+    width: 100%;
+    background-color: grey;
+    opacity: 0.5;
+
+    .Loading {
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+    }
+  }
+}
